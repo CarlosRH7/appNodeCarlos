@@ -1,0 +1,22 @@
+.navbar-default{
+    background-color: #45B39D;
+    height: 70px;
+}
+
+.navbar-right li a{
+    color: white !important;
+    font-size: 20px;
+}
+
+#logoNav{
+    width: 40px;
+}
+
+.text-md-left{
+    background-color: #45B39D;
+    color: white;
+}
+.py-3{
+    background-color: dimgray;
+    color: white;
+}
