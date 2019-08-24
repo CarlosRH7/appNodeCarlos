@@ -1,9 +1,88 @@
 extends ./layouts/standard.pug
 
-block content
 
-  h1= nombre
-  p Welcome to #{title}
+block content
+  <link rel="stylesheet" media="screen" href="css/particles.css">
+ 
+  <div id="particles-js">
+    <div class="col-md-6 col-md-offset-3" id="contentBannerHome">
+      <h1>My Page Web</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      <button class="btn btn-success"><span>GET STARTED</span></button>
+    </div>
+  </div>
+
+
+  <div id="divServices" class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h1>My Services</h1>
+      <p>SI design and develop services for customers of all sizes</p>
+    </div>
+  </div>
+  
+  <div class="parallax"></div>
+
+
+
+  <div id="divContent" class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-6 col-xs-12">
+        <h1>Make beauty Things With Passion.</h1>
+        <br>
+        <button class="btn btn-success"> READ MORE</button>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <div class="skills sm-m-20px-b">
+          <div class="progress-lt">
+            <h6>HTML</h6>
+            <span>92%</span>
+            <div class="progress">
+              <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%;">
+              </div>
+            </div>
+          </div>
+          <div class="progress-lt">
+            <h6>CSS</h6>
+            <span>84%</span>
+            <div class="progress">
+              <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100" style="width: 84%;">
+              </div>
+            </div>
+          </div>
+          <div class="progress-lt">
+            <h6>JavaScript</h6>
+            <span>88%</span>
+            <div class="progress">
+              <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
+              </div>
+            </div>
+          </div>
+          <div class="progress-lt">
+            <h6>PHp</h6>
+            <span>95%</span>
+            <div class="progress">
+              <div class="progress-bar theme-g-bg" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>Scroll Up and Down this page to see the parallax scrolling effect. This div is just here to enable scrolling. to remove the background-attachment property to remove the scrolling effect.</p>
+
+
+
+        
+
+
+
+
+    </div>
+  </div>
+
+  <script src="js/particles/particles.js"></script>
+  <script src="js/particles/app.js"></script>
+  <script src="js/particles/lib/stats.js"></script>
+
 
 
  

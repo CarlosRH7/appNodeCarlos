@@ -1,6 +1,23 @@
-.navbar-default, .navbar-collapse{
+html,body{ 
+	width:100%;
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+	/* background:#111; */
+}
+.navbar{
+    margin-bottom:0px !important;
+    border-color: #45B39D;
+}
+
+.navbar-default{
     background-color: #45B39D;
-    height: 70px;
+    height: 65px;
+}
+
+.navbar-collapse{
+    background-color: #45B39D;
+   
 }
 
 .navbar-right li a{
@@ -41,4 +58,69 @@
     background: -webkit-linear-gradient(left, rgba(39,71,230,1) 0%, rgba(39,230,230,1) 100%);    -webkit-box-shadow: 0px 12px 12px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 12px 12px -2px rgba(0,0,0,0.75);
     box-shadow: 0px 12px 12px -2px rgba(0,0,0,0.75);
+}
+
+
+#contentBannerHome{
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+#contentBannerHome h1{
+    margin-top: 30%;
+    font-size: 60px;
+}
+
+#contentBannerHome p{
+    font-size: 30px;
+}
+
+
+
+/* PARALLAX */
+
+.parallax {
+    background-image: url("/images/img_parallax.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#divContent{
+    height:1000px;
+    background-color:#E5E8E8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#divContent{
+    font-size: 20px;
+}
+
+#divServices{
+    background-color:#E5E8E8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#divServices h1{
+    text-align: center;
+}
+
+#divServices p{
+    text-align: center;
+    font-size: 20px;
+}
+
+button span{
+    font-weight:700;
+}
+
+
+.progress-bar{
+    background-color: #45B39D;
 }
